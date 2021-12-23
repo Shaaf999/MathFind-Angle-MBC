@@ -1,0 +1,18 @@
+import math
+AB=int(input())
+BC=int(input())
+print(round(math.degrees(math.atan(AB/BC)))),chr(176),sep='')
+
+# logic
+# MIDPT (BM) =1/2 AC
+# AC=MC + MA  WHERE MC = MA
+# So BM= 1/2(2MC)
+# BM=MC
+# MBC=MCB --> EQUILATERAL TRIANGLE
+
+# Main logic
+# tan teeta = (AB/BC)
+# teetaa = tan inverse (AB/BC)
+# math. degrees tan teeta in degrees
+# round = 45 degree if not rounded it will be 45.0 degree
+# chr(176) ---> degree symbol
